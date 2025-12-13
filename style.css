@@ -1,0 +1,45 @@
+.home {
+  /* background: linear-gradient(5deg, #dae8f5ff, #e8e0e7ff); */
+  background: radial-gradient(
+    circle at top right,
+    #6f42c1 0%,
+    rgba(111, 66, 193, 0.3) 25%,
+    rgba(111, 66, 193, 0.1) 40%,
+    #ffffff 70%
+  );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.home h3 {
+  font-size: 2rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  .home {
+    padding: 40px 0;
+  }
+
+  .home h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile kecil */
+@media (max-width: 576px) {
+  /* .home {
+    padding: 30px 0;
+  } */
+
+  .home h3 {
+    font-size: 1.3rem;
+  }
+
+  .home p {
+    font-size: 0.9rem;
+  }
+  /* .home a {
+    margin-buttom: 40px;
+  } */
+}
