@@ -15,6 +15,24 @@
   font-size: 2rem;
 }
 
+/* about */
+.about {
+  background: radial-gradient(
+    circle at top left,
+    #6f42c1 0%,
+    rgba(111, 66, 193, 0.3) 25%,
+    rgba(111, 66, 193, 0.1) 40%,
+    #ffffff 70%
+  );
+  min-height: 100vh;
+}
+/* .about #kanan {
+  background-color: #6f42c1;
+} */
+
+.about #1 {
+  background-color: aqua;
+}
 /* MEDIA QUERY */
 @media (max-width: 768px) {
   .home {
